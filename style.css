@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    text-align: center;
+    margin-top:100px; 
+ 
+}
+
+
+#ColorBox{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    
+}
+
+#changeColorBtn{
+    cursor: pointer;
+     background-color:transparent;
+     border: 1px solid black;
+     border-radius: 7px;
+     padding: 20px;
+}
+
+#changeColorBtn:hover{
+    background-color: aqua;
+}
